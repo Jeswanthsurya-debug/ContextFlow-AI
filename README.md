@@ -1,16 +1,16 @@
-# ContextFlow-AI
+# Carbon Footprint Awareness Platform
 
 ## Chosen Vertical
-Productivity & Task Management
+Sustainability & Environmental Impact
 
 ## Approach and Logic
-The solution utilizes a class-based architecture to maintain state (user history) and decouple the decision-making logic from the interface. It uses conditional branching based on `context` (Urgent vs. Creative) to ensure the assistant's tone and output are dynamically tailored to the user's immediate needs.
+This assistant is designed to help users track their daily carbon impact. It uses a factor-based calculation engine to quantify activities and provides real-time, personalized behavioral insights to encourage low-carbon lifestyle choices.
 
 ## How it works
-1. Initialize the `DynamicAssistant` with a persona.
-2. Pass an input and a context tag to the `get_response` method.
-3. The system parses the context to determine the appropriate response strategy.
+1. **Track:** The user logs daily activities (e.g., transport, work mode).
+2. **Calculate:** The system applies carbon intensity factors to these activities.
+3. **Insight:** The system evaluates the cumulative data to suggest immediate actionable improvements.
 
 ## Assumptions
-- The assistant assumes input is sanitized text.
-- The system is designed to be easily integrated into a larger API-driven backend.
+- The system assumes activity input is categorized into predefined modes (driving, transit, etc.).
+- Sustainability factors are approximations for demonstration purposes.
